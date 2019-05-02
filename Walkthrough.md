@@ -12,7 +12,7 @@ With or without a device, you can experience many of the features uBeac provides
 
 ### 1. Registration
 
-To start your uBeac journey, you need to go to register on the [uBeac website](http://ui.ubeac.io). Register with your email address and set a password (at least 8 characters including at least one upper-case and lower-case letter).
+To start your uBeac journey, you need to go and register on the [uBeac website](https://app.ubeac.io/register). Register with your email address and set a password (at least 8 characters including at least one upper-case and lower-case letter).
 
 ### 2. Confirmation
 
