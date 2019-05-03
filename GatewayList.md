@@ -2,8 +2,8 @@
 
 ## 1. Hardware gateways
 
-* **Raspberry Pi**: you can set up your Raspberry Pi to send request to uBeac panel. To learn how to do that, visit [Getting started with Raspberry Pi](./GettingStartedWithRaspberryPi) page.
-* **Arduino**: you can set up your Arduino to send request to uBeac panel. To learn how to do that, visit [Getting started with Arduino](./GettingStartedWithArduino) page.
+* **Raspberry Pi**: you can set up your Raspberry Pi to send request to uBeac panel. To learn how to do that, visit [Getting started with Raspberry Pi](./GettingStartedWithRaspberryPi.md) page.
+* **Arduino**: you can set up your Arduino to send request to uBeac panel. To learn how to do that, visit [Getting started with Arduino](./GettingStartedWithArduino.md) page.
 * **Ingics**: To learn how to configure Ingics gateway to send data, you can go to [uBeac YouTube channel](https://www.youtube.com/channel/UCxHu4X1zLUkS8amK5EwdBXg) and watch [related video](https://www.youtube.com/watch?v=JpZOgGGpgg0).
 * **Minew**: Is a capable gateway which is able to send data over HTTP(s) and MQTT(s) protocols. You can go to [uBeac YouTube channel](https://www.youtube.com/channel/UCxHu4X1zLUkS8amK5EwdBXg) and watch [Minew configuration video](https://www.youtube.com/watch?v=7Qu_LLbRtRw).
 * **April** Brothers: One of the easy to use gateways that you can configure it easily to send data. You can watch [April Brothers configuration video](https://www.youtube.com/watch?v=Pm5w7AYxl7Y) in [uBeac YouTube channel](https://www.youtube.com/channel/UCxHu4X1zLUkS8amK5EwdBXg) to learn how to configure it.
@@ -215,7 +215,7 @@
 
 * **HTTP clients**
 
-    1. **Postman**: You can easily use it to send HTTP(s) requests to uBeac. To do that you can add a [uBeac Generic Gateway Single Sensor](./ubeacGenericGateways.md) (or any other gateways), into your panel and put its URL in Postman. You can choose GET, POST, PUT or PATCH request method, set “Content-Type” in request Headers as “application/json”. Then you can put request body to send a temperature as below:  
+    1. **Postman**: You can easily use it to send HTTP(s) requests to uBeac. To do that you can add a [uBeac Generic Gateway Single Sensor](./GatewayList.md#2-software-gateways) (or any other gateways), into your panel and put its URL in Postman. You can choose GET, POST, PUT or PATCH request method, set “Content-Type” in request Headers as “application/json”. Then you can put request body to send a temperature as below:  
       This data shows 27°c temperature. For more information, visit uBeac Generic Gateways.  
         ```javascript
         {  
@@ -230,7 +230,7 @@
 
 * **MQTT clients**
 
-    You can set up your [MQTT(s)](./mqtt.md) client to publish data to uBeac. To know how to do that, you can visit Getting started with MQTT page. Here we have a quick view on how to send data with a MQTT client:
+    You can set up your [MQTT(s)](./uBeacProtocols.md#mqtt-protocol-and-methods) client to publish data to uBeac. To know how to do that, you can visit Getting started with MQTT page. Here we have a quick view on how to send data with a MQTT client:
     1. **MQTTLens**: Is one of the most popular MQTT clients. To set your gateway in this application, create a new connection, you can name it whatever you want, set URL to `hub.ubeac.io` and set the port to 1883 or 8883 then press create connection button. In next window in publish part, put your unique address as Topic and put the json below as a temperature data.
 
         ```javascript
