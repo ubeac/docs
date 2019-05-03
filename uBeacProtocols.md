@@ -41,13 +41,13 @@ These features are as below:
 
 A device state is likely the most commonly published message. When thinking in terms of sensor data, the device state is typically the value of one or more sensors. The time property is optional - when it is not included, uBeac assumes that the reported state is for the current time.
 
-By creating a gateway, you will get a unique URL (path) (e.g. hub.ubeac.io/abcdefg) to send your devices and sensors data to your gateway. The topic you need to use in your devices to publish data is “abcdefg” and the URLs that you can use in your devices are as below:
+By creating a gateway, you will get a unique URL (path) (e.g. hub.ubeac.io/abcdefg) to send your devices and sensors data to your gateway. The clientId you need to set into your devices to connect to our MQTT broker is “abcdefg” and the URLs that you neet to use in your devices are as below:
 
 `“mqtt(tcp)://hub.ubeac.io/” on port “1883”`
 
 `“mqtts(tcp)://hub.ubeac.io/” on port “8883”`
 
-We have also provided some different security options for you to use in your HTTP(s) requests.
+You do not need to set topic in your MQtt client and you can leave it blank. We have also provided some different security options for you to use in your HTTP(s) requests.
 These features are as below:
 
 1. **Using ‘username’ and ‘password’**: It is provided in uBeac for you to define a username and password in your gateway for your devices, set it in your MQTT client and send to uBeac. Only requests with correct username and password will be accepted by uBeac.
