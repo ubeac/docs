@@ -23,7 +23,7 @@
 
     1. **SingleDevice.SingleSensor**
 
-       This gateway is utilized to get data for a specific sensor in each request. For example, in each request you can send temperature, humidity or other data types.[Download sample Postman file](https://cdn.ubeac.io/repo/uBeac.postman_collection.json). <a href="https://cdn.ubeac.io/repo/uBeac.postman_collection.json" download target="_blank">Download sample Postman file</a>
+       This gateway is utilized to get data for a specific sensor in each request. For example, in each request you can send temperature, humidity or other data types.[Download sample Postman file](https://cdn.ubeac.io/repo/uBeac.postman_collection.json).
        To parse the request correctly, you need to send data in this structure:  
        ```javascript
         {
