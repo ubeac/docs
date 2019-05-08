@@ -39,7 +39,7 @@ See also
 | Degree | 30 | A degree (in full, a degree of arc, arc degree, or arcdegree), usually denoted by ° (the degree symbol), is a measurement of a plane angle, defined so that a full rotation is 360 degrees. | ° | - |
 | DegreePerSecond | 31 | - | deg/s | - |
 | bit | 32 | - | b | - |
-| bit | 33 | - | B | - |
+| Byte | 33 | - | B | - |
 | Byte per second | 34 | - | B/s | - |
 | bit per second | 35 | - | b/s | - |
 
