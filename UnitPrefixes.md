@@ -13,10 +13,10 @@ See also
 | exa | 4 | E | 18 | quintillion |
 | peta | 5 | P | 15 | quadrillion |
 | tera | 6 | T | 12 | trillion |
-| gigia | 7 | G | 9 | billion |
+| giga | 7 | G | 9 | billion |
 | mega | 8 | M | 6 | million |
 | kilo | 9 | K | 3 | thousand |
-| hect | 10 | H | 10 | hundred |
+| hecto | 10 | H | 10 | hundred |
 | deca | 11 | da | 1 | ten |
 | deci | 12 | d | -1 | tenth |
 | centi | 13 | c | -2 | hundredth |
