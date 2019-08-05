@@ -28,16 +28,16 @@
        ```javascript
         {
             "mac": "1A:2A:3A:4A:5A:6A",
-            "Type": 2,
+            "type": 4,
             "ts": 1542326605,
-            "unit": 30,
+            "unit": 2,
             "prefix": 0,
             "data": 123
         }
         ```
         **mac** : This shows the device mac or unique address. You can also use *"id", "uid", "name", "title" and "ip"* instead of that.
 
-        **Type** : This Is a code that shows the type of sensor. Each sensor has a type number and a name. you need to put the type number to indicate the type of sensor. To know more about sensor types, you can refer to [SensorType list](./SensorTypes.md).
+        **type** : This Is a code that shows the type of sensor. Each sensor has a type number and a name. you need to put the type number to indicate the type of sensor. To know more about sensor types, you can refer to [SensorType list](./SensorTypes.md).
 
         **ts** : This shows the time that sensor sends data. This could be dateTime or timeStamp value. If you want to send [timestamp](https://en.wikipedia.org/wiki/Timestamp), you need to use *"ts" or "timestamp"* and if you want to send dateTime you need to use *"dt", "date", "datetime", "time"* instead of that. If you use both of them, the first one will replace by second one.
 
@@ -50,9 +50,8 @@
         ```javascript
         "data":
         {
-            "lat": 123,
-            "long": 123,
-            "alt": 123
+            "latitude": 123,
+            "longitude": 123
         }
 
         OR just
@@ -73,9 +72,9 @@
             "sensors": [
                 {
                 "uid": "SignalStrength",
-                "unit": 1,
+                "unit": 22,
                 "prefix": 0,
-                "Type": 2,
+                "type": 17,
                 "data": {
                     "rssi": -86,
                     "txPower": -59
@@ -83,9 +82,9 @@
                 },
                 {
                 "uid": "Temperature",
-                "unit": 1,
+                "unit": 2,
                 "prefix": 0,
-                "Type": 3,
+                "type": 4,
                 "value": -59
                 }
             ]
@@ -102,7 +101,7 @@
 
         **uid** : This shows the name of sensor like *"Temperature", "Humidity", "Location"* and etc. You can also use *"id", "uid", "name", "title" and "ip"* instead of that.
 
-        **Type** : This is a code that shows the type of sensor. Each sensor has a type number and a name. you need to put the type number to indicate the type of sensor. To know more about sensor types, you can refer to [SensorType list](./SensorTypes.md).
+        **type** : This is a code that shows the type of sensor. Each sensor has a type number and a name. you need to put the type number to indicate the type of sensor. To know more about sensor types, you can refer to [SensorType list](./SensorTypes.md).
 
         **unit** : This is a code that shows the unit of data that should be considered in uBeac panel. For example, if you send temperature data, this can be a number related to centigrade or Fahrenheit. To know more about sensor units, you can refer to [unit list](./SensorUnits.md).
 
@@ -113,9 +112,8 @@
         ```javascript
         "data":
         {
-            "lat": 123,
-            "long": 123,
-            "alt": 123
+            "latitude": 123,
+            "longitude": 123
         }
 
         OR just
@@ -138,9 +136,9 @@
             "sensors": [
                 {
                 "uid": "SignalStrength",
-                "unit": 1,
+                "unit": 22,
                 "prefix": 0,
-                "Type": 2,
+                "type": 17,
                 "data": {
                 "rssi": -86,
                 "txPower": -59
@@ -150,7 +148,7 @@
                 "uid": "Temperature",
                 "unit": 2,
                 "prefix": 0,
-                "Type": 3,
+                "type": 4,
                 "value": 26
                 }
             ]
@@ -161,9 +159,9 @@
             "sensors": [
             {
                 "uid": "SignalStrength",
-                "unit": 1,
+                "unit": 22,
                 "prefix": 0,
-                "Type": 2,
+                "type": 17,
                 "data": {
                 "rssi": -86,
                 "txPower": -59
@@ -173,7 +171,7 @@
                 "uid": "Temp",
                 "unit": 2,
                 "prefix": 0,
-                "Type": 3,
+                "type": 4,
                 "value": 39
             }
             ]
@@ -191,7 +189,7 @@
 
         **uid** : This shows the name of sensor like *"Temperature", "Humidity", "Location"* and etc. You can also use *"id", "uid", "name", "title" and "ip"* instead of that.
 
-        **Type** : This is a code that shows the type of sensor. Each sensor has a type number and a name. you need to put the type number to indicate the type of sensor. To know more about sensor types, you can refer to [SensorType list](./SensorTypes.md).
+        **type** : This is a code that shows the type of sensor. Each sensor has a type number and a name. you need to put the type number to indicate the type of sensor. To know more about sensor types, you can refer to [SensorType list](./SensorTypes.md).
 
         **unit** : This is a code that shows the unit of data that should be considered in uBeac panel. For example, if you send temperature data, this can be a number related to centigrade or Fahrenheit. To know more about sensor units, you can refer to [unit list](./SensorUnits.md).
 
@@ -202,9 +200,8 @@
         ```javascript
         "data":
         {
-            "lat": 123,
-            "long": 123,
-            "alt": 123
+            "latitude": 123,
+            "longitude": 123
         }
 
         OR just
@@ -220,9 +217,9 @@
         ```javascript
         {  
             "mac": "Sample MAC address",  
-            "Type": 4,  
+            "type": 4,  
             "dateTime": "2019-01-30 13:44:33",
-            "unit": 1,
+            "unit": 2,
             "prefix": 0,
             "data": 27
         }
@@ -236,9 +233,9 @@
         ```javascript
         {
             "mac": "Sample MAC address",
-            "Type": 4,
+            "type": 4,
             "dateTime": "2019-01-30 13:44:33",
-            "unit": 1,
+            "unit": 2,
             "prefix": 0,
             "data": 27
         }
