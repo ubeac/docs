@@ -11,7 +11,7 @@ Each sensor data that comes to the uBeac panel should have a sensor type propert
 |------|:----:|-------------|:----:|--------|
 | N/A | 0 | - | N/A | - |
 | Custom | 1 | - | Custom | - |
-| Location | 2 | - | degree (°) | - |
+| Location (GPS) | 2 | - | degree (°) | - |
 | Distance | 3 | - | [m , in , mi , yd](https://en.wikipedia.org/wiki/Unit_of_length) |  [Source](https://en.wikipedia.org/wiki/Distance) |
 |Temperature | 4 | - | [C, F, K](https://en.wikipedia.org/wiki/Temperature_measurement#Comparison_of_temperature_scales) | - | - |
 |Humidity | 5 | - | [%, grams/m³](https://www.engineersgarage.com/articles/humidity-sensor) | [source](https://en.wikipedia.org/wiki/Hygrometer) |
