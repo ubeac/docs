@@ -2,8 +2,8 @@
 
 ## 1. Hardware gateways
 
-* **Raspberry Pi**: you can set up your Raspberry Pi to send request to uBeac panel. To learn how to do that, visit [Getting started with Raspberry Pi](./GettingStartedWithRaspberryPi.md) page.
-* **Arduino**: you can set up your Arduino to send request to uBeac panel. To learn how to do that, visit [Getting started with Arduino](./GettingStartedWithArduino.md) page.
+* **Raspberry Pi**: you can set up your Raspberry Pi to send request to uBeac panel. To learn how to do that, visit Getting started with Raspberry Pi page.
+* **Arduino**: you can set up your Arduino to send request to uBeac panel. To learn how to do that, visit Getting started with Arduino page.
 * **Ingics**: To learn how to configure Ingics gateway to send data, you can go to [uBeac YouTube channel](https://www.youtube.com/channel/UCxHu4X1zLUkS8amK5EwdBXg) and watch [related video](https://www.youtube.com/watch?v=JpZOgGGpgg0).
 * **Minew**: Is a capable gateway which is able to send data over HTTP(s) and MQTT(s) protocols. You can go to [uBeac YouTube channel](https://www.youtube.com/channel/UCxHu4X1zLUkS8amK5EwdBXg) and watch [Minew configuration video](https://www.youtube.com/watch?v=7Qu_LLbRtRw).
 * **April** Brothers: One of the easy to use gateways that you can configure it easily to send data. You can watch [April Brothers configuration video](https://www.youtube.com/watch?v=Pm5w7AYxl7Y) in [uBeac YouTube channel](https://www.youtube.com/channel/UCxHu4X1zLUkS8amK5EwdBXg) to learn how to configure it.
